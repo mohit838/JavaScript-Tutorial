@@ -10,12 +10,12 @@ body {
 .color-first{
     background-color: black;
     color: white;
-    padding: 5px;
+    padding: 5px 0 5px 5px;
 }
 
 .color-second {
     background-color: yellowgreen;
-    padding: 5px;
+    padding: 5px 5px 5px 0;
 }
 
 .content-head {
