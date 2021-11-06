@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.color-first{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.color-second {
+    background-color: yellowgreen;
+    padding: 5px;
+}
+
+.content-head {
+    margin-left: 40px;
+}
+
+.table {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 235px;
+}
+
+.table ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+.code {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+
+}
