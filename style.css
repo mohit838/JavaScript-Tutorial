@@ -30,8 +30,12 @@ body {
 
 .table ul li{
     list-style: none;
-    padding: 5px;
+    padding: 10px;
+    display: inline-block;
+    background-color: black;
+    color: white;
 }
+
 
 .code {
     font-size: 18px;
