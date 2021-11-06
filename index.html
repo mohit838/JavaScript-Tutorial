@@ -127,14 +127,18 @@
                         var numTwo = 20.5;
                         var numThree = 21.5;
                         var numFour = 22.5
+                        var numFive = 23.5;
 
                         var result1 = numTwo + 1; <b>//Increment First</b>
                         var result2 = ++numThree; <b>//Increment First</b>
                         var result3 = numFour++; <b>//Using in For/While Loop; Increment Later</b>
+                        <b>//Look Carefully</b>
+                        numFive++;
 
                         console.log(result1); <b>//Output: 21.5</b>
                         console.log(result2); <b>//Output: 22.5</b>
                         console.log(result3); <b>//Output: 22.5</b>
+                        console.log(numFive); <b>//Output: 24.5</b>
 
 
 

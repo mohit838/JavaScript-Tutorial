@@ -89,14 +89,17 @@ var numOne = 10;
 var numTwo = 20.5;
 var numThree = 21.5;
 var numFour = 22.5
+var numFive = 23.5;
 
 var result1 = numTwo + 1; //Increment First
 var result2 = ++numThree; //Increment First
 var result3 = numFour++; //Using in For/While Loop; Increment Later
+numFive++;
 
 console.log(result1); //Output: 21.5
 console.log(result2); //Output: 22.5
 console.log(result3); //Output: 22.5
+console.log(numFive); //Output: 24.5
 
 
 
