@@ -84,6 +84,93 @@
     
                         //**Note: It can split sentence in to words where space(" ") or any character or string.
                         </b>
+
+                        <b>//Add, Sub, Mul, Div, Modulo All are the same operation (+, -, *, /, %)
+                        </b>
+                        var numberOne = 10;
+                        var numberTwo = 20;
+                        var result = numberOne + numberTwo;
+                        console.log(result); <b>//Output: 30</b>
+
+
+                        <b>//**Special Case</b>
+                        var numOne = 'abc';
+                        var numTwo = 20;
+                        var result = numOne + numTwo;
+                        console.log(result); <b>//Output: abc20</b>
+
+
+                        var numOne = 'abc';
+                        var numTwo = 'xyz';
+                        var result = numOne + numTwo;
+                        console.log(result); <b>//Output: abcxyz</b>
+
+
+                        var numOne = 'abc';
+                        var numTwo = 'xyz';
+                        console.log(numOne+" "+numTwo); <b>//Output: abc xyz</b>
+
+
+                        <b>//String to number conversion [It's maybe Float or Int]</b>
+                        var numOne = 10;
+                        var numTwo = '20.5';
+                        numTwo = parseFloat(numTwo);
+                        numThree = parseInt(numTwo);
+                        var result = numOne + numTwo;
+                        var result2 = numOne + numThree;
+                        console.log(result); <b>//Output: 30.5</b>
+                        console.log(result2); <b>//Output: 30</b>
+
+
+                       <b>//Increment Number</b>
+                        var numOne = 10;
+                        var numTwo = 20.5;
+                        var numThree = 21.5;
+                        var numFour = 22.5
+
+                        var result1 = numTwo + 1; <b>//Increment First</b>
+                        var result2 = ++numThree; <b>//Increment First</b>
+                        var result3 = numFour++; <b>//Using in For/While Loop; Increment Later</b>
+
+                        console.log(result1); <b>//Output: 21.5</b>
+                        console.log(result2); <b>//Output: 22.5</b>
+                        console.log(result3); <b>//Output: 22.5</b>
+
+
+
+                        <b>//**Special Case</b>
+                        var numOne = 10;
+
+                        var result1 = '' + numOne; <b>//Empty string</b>
+                        var result2 = ' ' + numOne; <b>//Space here</b>
+                        console.log(result1); <b>//Output: 10</b>
+                        console.log(result2); <b>//Output: 10</b>
+
+                        <b>//Look Carefully For Upper Code</b>
+                        console.log(typeof result1); <b>//Output: string</b>
+                        console.log(typeof result2); <b>//Output: string</b>
+
+
+                        <b>//Floating Addition</b>
+                        var numOne = 10.02;
+                        var numTwo = 15.20;
+
+                        var result = numOne + numTwo;
+                        console.log(result); <b>//Output: 25.22</b>
+
+                        <b>//**Special Case for Floating</b>
+                        var numOne = 0.1;
+                        var numTwo = 0.2;
+
+                        console.log(numOne + numTwo); <b>//Output: 0.30000000000000004</b>
+
+
+                        var numOne = 0.1;
+                        var numTwo = 0.2;
+
+                        var sum = numOne + numTwo;
+                        sum = sum.toFixed(2);
+                        console.log(sum); <b>//Output: 0.30</b>
                     </pre>
                 </div>
             </div>
