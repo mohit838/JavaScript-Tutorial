@@ -27,3 +27,12 @@ var isHot = true;
 console.log(isHot); //Output: String
 console.log(typeof isHot); //Output: Boolean
 
+
+//All LowerCase, UpperCase, IndexOf
+var about = "I'm a student.";
+console.log(about.toLowerCase()); //Output: i'm a student.
+console.log(about.toUpperCase()); //Output: I'M A STUDENT.
+console.log(about.indexOf('a')); //Output: 4 [i=0, '=1, m=2, ' '=3, a=4]
+
+
+
