@@ -1,4 +1,4 @@
-//Hello in Js
+//Hello in JavaScript
 
 console.log(25);
 console.log("Hello World!");
