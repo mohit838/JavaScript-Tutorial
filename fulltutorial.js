@@ -510,6 +510,56 @@ console.log("After Swaping Values X: " + x + " Values Y: " + y); //Output: After
 
 
 
+//Max Finding Using Method
+
+var a = 1000;
+var b = 5000;
+var c = 10000;
+
+var result = Math.max(a, b, c); 
+
+console.log(result); //Output: 10000
+
+
+
+
+//Array Sum Calculation
+
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+function sumOfArray(array) {
+    var total = 0;
+
+    for (var i = 0; i < array.length; i++) {
+        var total = total + array[i];
+    }
+
+    return total;
+}
+
+console.log("Array Sum Calculation: " + (sumOfArray(array))); //Output: Array Sum Calculation: 45
+
+
+
+
+//Remove Duplicate Element From Array
+
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 3, 5, 6];
+var unique = [];
+
+for (var i = 0; i < array.length; i++) {
+    var element = array[i];
+    var indexOf = unique.indexOf(element);
+
+    if(indexOf == -1) {
+        unique.push(element);
+    }
+}
+
+console.log(unique); //Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+
 
 
 

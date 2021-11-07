@@ -559,7 +559,55 @@
                         console.log("After Swaping Values X: " + x + " Values Y: " + y); <b>//Output: After Swaping Values X: 50 Values Y: 55</b>
                     
 
-                        
+                        <b>//Max Finding Using Method</b>
+
+                        var a = 1000;
+                        var b = 5000;
+                        var c = 10000;
+
+                        var result = Math.max(a, b, c); 
+
+                        console.log(result); <b>//Output: 10000</b>
+
+
+
+                        <b>//Array Sum Calculation</b>
+
+                        var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+                        function sumOfArray(array) {
+                            var total = 0;
+
+                            for (var i = 0; i < array.length; i++) {
+                                var total = total + array[i];
+                            }
+
+                            return total;
+                        }
+
+                        console.log("Array Sum Calculation: " + (sumOfArray(array))); <b>//Output: Array Sum Calculation: 45</b>
+
+                        <b>//** This may use in Shooping Cart Calculation */></b>
+
+
+
+                        <b>//Remove Duplicate Element From Array</b>
+
+                        var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 3, 5, 6];
+                        var unique = [];
+
+                        for (var i = 0; i < array.length; i++) {
+                            var element = array[i];
+                            var indexOf = unique.indexOf(element);
+
+                            if(indexOf == -1) {
+                                unique.push(element);
+                            }
+                        }
+
+                        console.log(unique); <b>//Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]</b>
+
+
 
                     </pre>
                 </div>
