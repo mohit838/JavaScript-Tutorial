@@ -273,6 +273,49 @@
 
                         console.log(date); <b>//Output: Sun Nov 07 2021 12:30:06 GMT+0600 (East Kazakhstan Time)</b>
 
+                        <b>//Array in Js</b>
+                        var array = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+                        var sliceArray = array.slice(0,5);
+                        var sliceArray2 = array.slice(2,8);
+
+                        console.log(sliceArray); <b>//Output: ['a', 'b', 'c', 'd', 'e']</b>
+                        console.log(sliceArray2); <b>//Output: ['c', 'd', 'e', 'f', 'g', 'h']</b>
+                        console.log(array.length); <b>//output: 10</b>
+                        console.log(array[5]); <b>//Output: f</b>
+
+                        array['f'] = 'z';
+
+                        console.log(array); <b>//Output: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', f: 'z']</b>
+
+                        array[5] = 'z'; <b>//Using IndexNumber</b>
+
+                        console.log(array); <b>//Output: ['a', 'b', 'c', 'd', 'e', 'z', 'g', 'h', 'i', 'j', f: 'z']</b>
+
+                        var postion = array.indexOf('e');
+
+                        console.log(postion); <b>//Output: 4</b>
+
+                        <b>//**If outputIs: -1 then there is no matching elements</b>
+
+                        <b>//New Element Add in Array</b>
+                        var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+                        array.push(10);
+
+                        console.log(array); <b>//Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</b>
+
+                        array.pop(); <b>//By Default Last Element Will be deleted</b>
+
+                        console.log(array); <b>//Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]</b>
+
+                        array.unshift(10); <b>//Add Element From Beginning</b>
+
+                        console.log(array); <b>//Output: [10, 1, 2, 3, 4, 5, 6, 7, 8, 9]</b>
+
+                        array.shift(); <b>//Remove Element From Beginning</b>
+
+                        console.log(array); <b>//Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]</b>
+
                         
                     </pre>
                 </div>

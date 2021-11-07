@@ -234,5 +234,49 @@ var date = new Date();
 console.log(date); //Output: Sun Nov 07 2021 12:30:06 GMT+0600 (East Kazakhstan Time)
 
 
+//Array in Js
+var array = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+var sliceArray = array.slice(0,5);
+var sliceArray2 = array.slice(2,8);
+
+console.log(sliceArray); //Output: ['a', 'b', 'c', 'd', 'e']
+console.log(sliceArray2); //Output: ['c', 'd', 'e', 'f', 'g', 'h']
+console.log(array.length); //output: 10
+console.log(array[5]); //Output: f
+
+array['f'] = 'z';
+
+console.log(array); //Output: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', f: 'z']
+
+array[5] = 'z'; //Using IndexNumber
+
+console.log(array); //Output: ['a', 'b', 'c', 'd', 'e', 'z', 'g', 'h', 'i', 'j', f: 'z']
+
+var postion = array.indexOf('e');
+
+console.log(postion); //Output: 4
+
+//**If outputIs: -1 then there is no matching elements
+
+//New Element Add in Array
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+array.push(10);
+
+console.log(array); //Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+array.pop(); //By Default Last Element Will be deleted
+
+console.log(array); //Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+array.unshift(10); //Add Element From Beginning
+
+console.log(array); //Output: [10, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+array.shift(); //Remove Element From Beginning
+
+console.log(array); //Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
 
 
