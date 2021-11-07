@@ -400,6 +400,39 @@
 
 
 
+                        <b>//**Objects in Js */</b>
+
+                        var student = {
+                            Name: 'Jack',
+                            Id: 1,
+                            Ph: 123
+                        };
+
+                        console.log(student);
+
+                        console.log(student.Name); <b>//Output: Jack</b>
+                        console.log(student['Name']); <b>//Output: Jack</b>
+
+                        var stuName = 'Name';
+                        console.log(student[stuName]); <b>//Output: Jack</b>
+
+                        <b>//Update Objects</b>
+                        student.Id = 2;
+                        console.log(student.Id); <b>//Output: 2</b>
+
+                        console.log(student); <b>//Output: {Name: 'Jack', Id: 2, Ph: 123}</b>
+
+
+
+                        <b>//Update Property</b>
+                        student.Address = 'NY';
+                        console.log(student.Address); <b>//Output: NY</b>
+
+                        console.log(student); <b>//Output: Name: 'Jack', Id: 2, Ph: 123, Address: 'NY'}</b>
+
+
+
+
                         
                     </pre>
                 </div>

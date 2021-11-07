@@ -1,38 +1,31 @@
-//Function in Js
+//**Objects in Js */
 
-function addNum(a, b){
-    var a; var b;
-    var result = a + b;
-    return result;
-}
+var student = {
+    Name: 'Jack',
+    Id: 1,
+    Ph: 123
+};
 
-var total = addNum(5, 10);
+console.log(student);
 
-console.log(total); //Output: 15
+console.log(student.Name); //Output: Jack
+console.log(student['Name']); //Output: Jack
 
+var stuName = 'Name';
+console.log(student[stuName]); //Output: Jack
 
+//Update Objects
+student.Id = 2;
+console.log(student.Id); //Output: 2
 
-//**Look Carefully
-function addNum(a, b){
-    var result = a + b;
-    return result;
-}
-
-var total1 = addNum(15, 10);
-var total2 = addNum(50, 100);
-
-console.log(total1); //Output: 25
-console.log(total2); //Output: 150
-
-//Another Method of Showing Result
-console.log(total1, total2); //Output: 25 150
+console.log(student); //Output: {Name: 'Jack', Id: 2, Ph: 123}
 
 
+//Update Property
+student.Address = 'NY';
+console.log(student.Address); //Output: NY
 
-
-
-
-
+console.log(student); //Output: Name: 'Jack', Id: 2, Ph: 123, Address: 'NY'}
 
 
 
