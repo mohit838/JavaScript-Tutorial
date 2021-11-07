@@ -473,7 +473,40 @@ for (var i = 2; i < number; i++) {
 //=== is used for comparing two variables, but this operator also checks datatype and compares two values.
 
 
+//Swaping Values using Temp 
+var a = 1;
+var b = 2;
+var temp;
 
+console.log("Before Swap Values A: " + a + " Values B: " + b); //Output: Before Swap Values: 1 Values: 2
+
+temp = a;
+a = b;
+b = temp;
+
+console.log("After Swap Values A: " + a + " Values B: " + b); //Output: After Swap Values: 2 Values: 1
+
+
+//Swaping Values Without Temp
+var x = 10;
+var y = 20;
+
+x = x + y;
+y = x - y;
+x = x - y;
+
+console.log("After Swap Values X: " + x + " Values Y: " + y) //Output: After Swap Values: 20 Values: 10
+
+
+
+
+//Another Way of Swaping with array
+var x = 55;
+var y = 50;
+
+[x, y] = [y, x]; 
+
+console.log("After Swaping Values X: " + x + " Values Y: " + y); //Output: After Swaping Values X: 50 Values Y: 55
 
 
 
