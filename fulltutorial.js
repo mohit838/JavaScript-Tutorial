@@ -223,5 +223,16 @@ else {
 //Condition are one must be true for '||'
 
 
+//Date in Js
+var date = new Date('2021-05-05');
+
+console.log(date); //Output: Wed May 05 2021 06:00:00 GMT+0600 (East Kazakhstan Time)
+
+//**Without Parameter
+var date = new Date();
+
+console.log(date); //Output: Sun Nov 07 2021 12:30:06 GMT+0600 (East Kazakhstan Time)
+
+
 
 
