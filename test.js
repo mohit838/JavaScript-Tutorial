@@ -1,11 +1,14 @@
-//Simple While Loop
+//Simple For Loop In Array
 
-var num = 0;
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-while (num < 5) {
-    console.log(num); //Output: 0 1 2 3 4
-    num++;
+for (var i = 0; i < array.length; i++) {
+    console.log(array[i]); //Output: 1 2 3 4 5 6 7 8 9
 }
+
+//**Note:
+//console.log(array[i]); array[i]= value
+//console.log(i); i = IndexOfArrayValue
 
 
 
