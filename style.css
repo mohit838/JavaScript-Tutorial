@@ -18,14 +18,11 @@ body {
     padding: 5px;
 }
 
-.content-head {
-    margin-left: 40px;
-}
 
 .table {
-    text-align: left;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 235px;
+    /* margin-left: 235px; */
 }
 
 .table ul li{
