@@ -380,7 +380,7 @@ console.log(student.Id); //Output: 2
 console.log(student); //Output: {Name: 'Jack', Id: 2, Ph: 123}
 
 
-//Update Property
+//Add Property or update as same
 student.Address = 'NY';
 console.log(student.Address); //Output: NY
 
