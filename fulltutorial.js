@@ -388,6 +388,99 @@ console.log(student); //Output: Name: 'Jack', Id: 2, Ph: 123, Address: 'NY'}
 
 
 
+//Const and Let Example (ES6 version in Js)
+
+const num = 10; //Never change the value.
+
+let number = 20; //You can change later.
+
+
+
+//Factorial Using Funcions
+
+function factorial(num){
+    if(num == 0){
+        return 1;
+    }
+    return num * factorial(num - 1);
+}
+
+console.log(factorial(3)); //Output: 6
+
+
+
+//Fibonacci Series Using Funcions
+
+function fibonacci(num){
+    if(num == 0){
+        return 0;
+    }
+    else if(num == 1){
+        return 1;
+    }
+    else{
+        return fibonacci(num - 1) + fibonacci(num - 2);
+    }
+}
+
+
+for(var i = 0; i < 6; i++) {
+    console.log(fibonacci(i)); //Output: 0 1 1 2 3 5
+}
+
+
+
+
+//Check Prime Number
+
+var number = 19;
+var prime;
+
+for (var i = 2; i < number; i++) {
+    prime = (number % i);
+
+    if (prime == 0) {
+        console.log("Not a Prime.");
+    }
+    else{
+        console.log("Prime number.");
+    }
+}
+
+
+//Another Example of Check Prime Number
+
+var number = 9;
+var prime;
+
+number = Math.sqrt(number) //Finding the Square Root
+
+for (var i = 2; i < number; i++) {
+    prime = (number % i);
+
+    if (prime == 0) {
+        console.log("Not a Prime.");
+    }
+    else{
+        console.log("Prime number.");
+    }
+}
+
+
+
+//** Special Note:
+//== in JavaScript is used for comparing two variables, but it ignores the datatype of variable. 
+//=== is used for comparing two variables, but this operator also checks datatype and compares two values.
+
+
+
+
+
+
+
+
+
+
 
 
 
