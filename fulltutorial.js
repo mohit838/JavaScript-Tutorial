@@ -627,3 +627,15 @@ else{
 
 
 
+//DOM: Document Object Modeling
+/**
+ *Document.getElementById()
+ *Document.getElementByClass()
+ *Document.getElementByTagName()
+ *Document.querySelector()
+ *Document.querySelectorAll()
+ *Using With HTML
+ */
+
+
+ 
