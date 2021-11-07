@@ -33,6 +33,14 @@ body {
     color: white;
 }
 
+.table ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.table ul li a:hover{
+    color: yellowgreen;
+}
 
 .code {
     font-size: 18px;
