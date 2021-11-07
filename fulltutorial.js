@@ -157,9 +157,70 @@ console.log(roundNum); //Output: 10
 console.log(ceilingNum); //Output: 11
 
 
+//Random Number Generator
+var number = Math.random() * 100;
+var result = Math.round(number); //Or you can use Math.Ceil()
+
+console.log(result); //Output: Any Number between 0 to 100
 
 
+//Simple If-else Statement
+var num = 10;
 
+if(num > 5){
+    console.log("Number is Greater than 5."); //Output: Number is Greater than 5.
+}
+else{
+    console.log("Number is not greater than 5.");
+}
+
+//Another example
+var num2 = 2;
+
+if(num2 > 5){
+    console.log("Number is Greater than 5.");  
+}
+else{
+    console.log("Number is not greater than 5."); //Output: Number is not greater than 5.
+}
+
+//**Special Note
+//Note1: Condition may [ <, >, ==, != {not equal}, ===, || {or}, && {and} ]
+
+//Another Example
+var job = true; //It may false
+var salary = 30000;
+
+if (job == true && salary > 20000){ //It may && {and}, || {or}
+    console.log("Make a Tour Plan.");
+}
+else {
+    console.log("Not sure for tour plan.");
+}
+
+//**What will be the output?? Think!!!
+
+//Another Example
+var job = true; //It may false
+var salary = 30000;
+
+if (job == true && salary > 30000){ //It may && {and}, || {or}
+    console.log("Make a Tour Plan.");
+}
+
+else if(job == true && salary <= 30000){
+    console.log("Don't think about Buying a house.")
+}
+
+else {
+    console.log("Not sure for tour plan.");
+}
+
+//Output: Don't think about Buying a house.
+                            
+//**Note:
+//Condition are both must be true for '&&'
+//Condition are one must be true for '||'
 
 
 

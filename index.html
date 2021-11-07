@@ -178,7 +178,6 @@
 
 
                         <b>//Absolute Number</b>
-
                         var numOne = -10;
                         var absoluteNum = Math.abs(numOne);
 
@@ -194,6 +193,74 @@
                         console.log(absoluteNum); <b>//Output: 10.2</b>
                         console.log(roundNum); <b>//Output: 10</b>
                         console.log(ceilingNum); <b>//Output: 11</b>
+
+
+                        <b>//Random Number Generator</b>
+                        var number = Math.random() * 100;
+                        var result = Math.round(number); <b>//Or you can use Math.Ceil()</b>
+
+                        console.log(result); <b>//Output: Any Number between 0 to 100</b>
+
+
+                        <b>//Simple If-else Statement</b>
+                        var num = 10;
+
+                        if(num > 5){
+                            console.log("Number is Greater than 5."); <b>//Output: Number is Greater than 5.</b>
+                        }
+                        else{
+                            console.log("Number is not greater than 5.");
+                        }
+
+                        <b>//Another example</b>
+                        var num2 = 2;
+
+                        if(num2 > 5){
+                            console.log("Number is Greater than 5.");  
+                        }
+                        else{
+                            console.log("Number is not greater than 5."); <b>//Output: Number is not greater than 5.</b>
+                        }
+
+
+                        <b>//**Special Note
+                        //Note1: Condition may [ <, >, ==, != {not equal}, ===, || {or}, && {and} ]</b>
+
+                        <b>//Another Example</b>
+                        var job = true; <b>//It may false</b>
+                        var salary = 30000;
+
+                        if (job == true && salary > 20000){ <b>//It may && {and}, || {or}</b>
+                            console.log("Make a Tour Plan.");
+                        }
+                        else {
+                            console.log("Not sure for tour plan.");
+                        }
+
+                        <b>**What will be the output?? Think!!!</b>
+
+                        <b>//Another Example</b>
+                        var job = true; <b>//It may false</b>
+                        var salary = 30000;
+
+                        if (job == true && salary > 30000){ <b>//It may && {and}, || {or}</b>
+                            console.log("Make a Tour Plan.");
+                        }
+
+                        else if(job == true && salary <= 30000){
+                            console.log("Don't think about Buying a house.")
+                        }
+
+                        else {
+                            console.log("Not sure for tour plan.");
+                        }
+
+                        <b>//Output: Don't think about Buying a house.
+                            
+                        //**Note:
+                        //Condition are both must be true for '&&'
+                        //Condition are one must be true for '||'
+                        </b>
                     </pre>
                 </div>
             </div>
